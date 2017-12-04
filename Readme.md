@@ -1,6 +1,5 @@
-# Walk It Off
+### *You find yourself in a dark room.*
 
-* Feeling Down?
-* Wanna Relax?
+#### *In the background you hear music playing. Slowly from out of the gloom you make out the shape of a man. He appears to be dancing.*
 
-### Just run index.html, push play, and enjoy!
+###### Just run index.html, and let the rest take care of itself.
