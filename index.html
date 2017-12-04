@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sync This</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
       body{
         background-color: black;
@@ -13,11 +14,16 @@
         flex-flow: column wrap;
         margin: 50px auto;
       }
+      .animate-opacity{
+        animation:opac 30s
+      }
+      @keyframes opac{ from{opacity:0} to{opacity:1} }
     </style>
   </head>
   <body>
     <div class='container'>
-      <iframe src="https://giphy.com/embed/ALWRDkksUaVa0" width="480" height="432" frameBorder="0" class="giphy-embed"></iframe>
+      <iframe class='animate-opacity' src="https://giphy.com/embed/3og0INp3d5kN7AP5ss" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+      <!-- <a href="https://giphy.com/gifs/animation-art-loop-3og0INp3d5kN7AP5ss">via GIPHY</a> -->
       <iframe width="480" height="130" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140048537&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
     </div>
   </body>
